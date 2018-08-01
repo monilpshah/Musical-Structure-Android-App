@@ -9,9 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 
-public class Playlist_Adapter extends ArrayAdapter<playlist_class> {
+public class Playlist_Adapter extends ArrayAdapter<PlayListClass> {
 
-    public Playlist_Adapter(Activity context, ArrayList<playlist_class> playlist_classes) {
+    public Playlist_Adapter(Activity context, ArrayList<PlayListClass> playlist_classes) {
         super(context, 0, playlist_classes);
     }
 
@@ -24,7 +24,7 @@ public class Playlist_Adapter extends ArrayAdapter<playlist_class> {
                     R.layout.list_item, parent, false);
         }
 
-        playlist_class currentPlaylist = getItem(position);
+        PlayListClass currentPlaylist = getItem(position);
 
         TextView song_textview = (TextView) listItemView.findViewById(R.id.song_textview);
 

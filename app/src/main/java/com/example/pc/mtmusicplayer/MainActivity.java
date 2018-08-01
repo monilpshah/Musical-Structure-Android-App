@@ -86,10 +86,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent(this, Setting.class);
         startActivity(intent);
     }
-    public void onButton(View view){
-        Intent intent=new Intent(this,Player.class);
-        startActivity(intent);
-    }
+
 
 
     public void onClick(View view) {
@@ -126,8 +123,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 }
                 break;
-
         }
     }
-
 }

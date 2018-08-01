@@ -203,24 +203,21 @@
             android:layout_height="80dp"
             android:layout_marginLeft="10dp"
             android:id="@+id/btn_stop"
-            android:background="@drawable/download3"
-            android:onClick="onButton" />
+            android:background="@drawable/download3" />
 
         <Button
             android:layout_width="100dp"
             android:layout_height="80dp"
             android:layout_marginLeft="50dp"
             android:background="@drawable/download11"
-            android:id="@+id/btn_play"
-            android:onClick="onButton" />
+            android:id="@+id/btn_play"/>
 
         <Button
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:id="@+id/btn_pause"
             android:layout_marginLeft="40dp"
-            android:background="@drawable/download2"
-            android:onClick="onButton" />
+            android:background="@drawable/download2" />
 
     </LinearLayout>
 </LinearLayout>

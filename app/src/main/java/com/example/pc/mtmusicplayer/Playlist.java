@@ -13,23 +13,23 @@ public class Playlist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playlist);
 
-        ArrayList<playlist_class> playlist_class = new ArrayList<playlist_class>();
-        playlist_class p = new playlist_class("Dilbar", "Satyamev Jayate");
-        playlist_class.add(p);
+        ArrayList<PlayListClass > PlayListClass = new ArrayList<PlayListClass >();
+        PlayListClass  p = new PlayListClass ("Dilbar", "Satyamev Jayate");
+        PlayListClass.add(p);
 
-        playlist_class.add(new playlist_class("Dhadak title track", "Dhadak"));
-        playlist_class.add(new playlist_class("Oh humsafar", "Oh humsafar"));
-        playlist_class.add(new playlist_class("Bom diggy", "Bom diggy"));
-        playlist_class.add(new playlist_class("Paniyon sa", "Satyamev Jayate"));
-        playlist_class.add(new playlist_class("Naino Ne Bandhi", "Glod"));
-        playlist_class.add(new playlist_class("Jitni Dafa", "Parmanu"));
-        playlist_class.add(new playlist_class("kar Har Medan Fateh", "Sanju"));
-        playlist_class.add(new playlist_class("High Rated Gabru", "Nawabzade"));
-        playlist_class.add(new playlist_class("Tareefan", "Veere Di Wedding"));
-        playlist_class.add(new playlist_class("Zingaat", "Dhadak"));
-        playlist_class.add(new playlist_class("Buzz", "Buzz"));
+        PlayListClass.add(new PlayListClass("Dhadak title track", "Dhadak"));
+        PlayListClass.add(new PlayListClass("Oh humsafar", "Oh humsafar"));
+        PlayListClass.add(new PlayListClass("Bom diggy", "Bom diggy"));
+        PlayListClass.add(new PlayListClass("Paniyon sa", "Satyamev Jayate"));
+        PlayListClass.add(new PlayListClass("Naino Ne Bandhi", "Glod"));
+        PlayListClass.add(new PlayListClass("Jitni Dafa", "Parmanu"));
+        PlayListClass.add(new PlayListClass("kar Har Medan Fateh", "Sanju"));
+        PlayListClass.add(new PlayListClass("High Rated Gabru", "Nawabzade"));
+        PlayListClass.add(new PlayListClass("Tareefan", "Veere Di Wedding"));
+        PlayListClass.add(new PlayListClass("Zingaat", "Dhadak"));
+        PlayListClass.add(new PlayListClass("Buzz", "Buzz"));
 
-        Playlist_Adapter itemsAdapter = new Playlist_Adapter (this, playlist_class);
+        Playlist_Adapter itemsAdapter = new Playlist_Adapter (this, PlayListClass);
 
         ListView listView = (ListView) findViewById(R.id.list);
 

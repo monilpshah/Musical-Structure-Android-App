@@ -30,7 +30,7 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Setting"
-            android:label="Album"
+            android:label="Setting"
             android:parentActivityName=".MainActivity" />
     </application>
 
